@@ -6,79 +6,98 @@
     <link href="assets/css/styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>
-        Aloha Fit - Cardápio Saudável
-    </h1>
-    <p>
-        Bem-vindo ao Aloha Fit, onde oferecemos opções de refeições saudáveis e deliciosas para ajudá-lo a alcançar seus objetivos de saúde e bem-estar. 
-        Em nosso cardápio oferecemos pokes frescos e pratos saudáveis feitos com ingredientes naturais e nutritivos. Uma refeição leve, saborosa e cheia de energia para o seu dia!
-    </p>
-    <ul>
-        <li>Poke de Salmão com Quinoa e Manga</li>
-        <li>Salada Mediterrânea</li>
-        <li>Poke Tropical</li>
-        <li>Buddha Bowl</li>
-    </ul>
-    <img src="assets/img/pokee.jpg" alt="Imagem do Poke de Salmão com Quinoa e Manga." title="Poke de Salmão com Quinoa e Manga"
-    style="width: 400px; height: 400px; object-fit: cover"/>
-    <table>
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Ingredientes</th>
-                <th>Preço</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Poke de Salmão com Quinoa e Manga</td>
-                <td>Salmão, quinoa, manga, abacate, cebola roxa, molho de soja</td>
-                <td>R$ 35,00</td>
-            </tr>
-            <tr>
-                <td>Salada Mediterrânea</td>
-                <td>Alface, tomate, pepino, azeitonas, queijo feta, azeite de oliva</td>
-                <td>R$ 25,00</td>
-            </tr>
-            <tr>
-                <td>Poke Tropical</td>
-                <td>Atum, abacaxi, cenoura ralada, edamame, molho de gergelim</td>
-                <td>R$ 30,00</td>
-            </tr>
-            <tr>
-                <td>Buddha Bowl</td>
-                <td>Grão-de-bico, espinafre, cenoura, beterraba, molho tahine</td>
-                <td>R$ 28,00</td>
-            </tr>
-        </tbody>
-    </table>
-    <form action="">
-        <fieldset>
-            <legend>Digite seu prato favorito:</legend>
-            <input
-                type="text"
-                value=""
-                name="pratoFavotito"
-                id="pratoFavotito"
-                placeholder="Ex: Poke de Salmão"
-            />
-            <button type="submit"> 🥗 Enviar</button>
-        </fieldset>
-    </form>
-
-    <section>
-        <h2>Bebidas</h2>
+    <div class="tela">  
+        <header>
+            <div class="titulo"> 
+                <img src="assets/img/emoji.png"/>      
+                <h1>
+                Aloha Fit - Cardápio Saudável
+                </h1>
+            </div> 
+            <nav>
+                <a href="#">Início | </a>
+                <a href="#">Cardápio | </a>
+                <a href="#">Sobre Nós | </a>
+                <a href="#">Contato</a>
+            </nav>
+            </header>
+        <p>
+            O PokeVita é um espaço dedicado à alimentação saudável e saborosa, inspirado na culinária havaiana e na leveza dos ingredientes frescos. 
+            Nosso cardápio é repleto de pokes coloridos, bowls nutritivos, saladas vibrantes e opções quentes leves, sempre preparados com alimentos frescos, integrais e ricos em nutrientes. 
+            Aqui, acreditamos que comer bem é mais do que uma escolha — é um estilo de vida. Seja para uma refeição rápida ou para apreciar com calma, cada prato é pensado para oferecer equilíbrio, sabor e energia para o seu dia.
+            Aqui estão algumas sugestões do nosso cardápio:
+        </p>
         <ul>
-            <li>Água de Coco</li>
-            <li>Suco Verde</li>
-            <li>Chá Gelado de Hibisco</li>
-            <li>Refrigerante Natural</li>
+            <li>Poke de Salmão com Quinoa e Manga</li>
+            <li>Salada Mediterrânea</li>
+            <li>Poke Tropical</li>
+            <li>Buddha Bowl</li>
         </ul>
-    </section>
+        <div class="imagens">
+        <img src="assets/img/bowl.jpg" alt="Imagem do prato Buddha Bowl." title="Buddha Bowl"/>
+        <img src="assets/img/poke2.jpg" alt="Imagem do prato Poke Tropical." title="Poke Tropical"/>
+        <img src="assets/img/salad.jpg" alt="Imagem do prato Salata Mediterrânea." title="Salada Mediterrânea"/>
+        <img src="assets/img/poke.jpg" alt="Imagem do prato Poke de Salmão com Quinoa e Manga." title="Poke de Salmão com Quinoa e Manga"/>    
+        </div>
 
-    <footer>
-        &copy; Aloha Fit - Todos os Direitos Reservados
-    </footer>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Ingredientes</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Poke de Salmão com Quinoa e Manga</td>
+                    <td>Salmão, quinoa, manga, abacate, cebola roxa, molho de soja</td>
+                    <td>R$ 35,00</td>
+                </tr>
+                <tr>
+                    <td>Salada Mediterrânea</td>
+                    <td>Alface, tomate, pepino, azeitonas, queijo feta, azeite de oliva</td>
+                    <td>R$ 25,00</td>
+                </tr>
+                <tr>
+                    <td>Poke Tropical</td>
+                    <td>Atum, abacaxi, cenoura ralada, edamame, molho de gergelim</td>
+                    <td>R$ 30,00</td>
+                </tr>
+                <tr>
+                    <td>Buddha Bowl</td>
+                    <td>Grão-de-bico, espinafre, cenoura, beterraba, molho tahine</td>
+                    <td>R$ 28,00</td>
+                </tr>
+            </tbody>
+        </table>
+        <form action="">
+            <fieldset>
+                <legend>Digite seu prato favorito:</legend>
+                <input
+                    type="text"
+                    value=""
+                    name="pratoFavotito"
+                    id="pratoFavotito"
+                    placeholder="Ex: Poke de Salmão"
+                />
+                <button type="submit"> 🥗 Enviar</button>
+            </fieldset>
+        </form>
 
+        <section>
+            <h2>Bebidas</h2>
+            <ul>
+                <li>Água de Coco</li>
+                <li>Suco Verde</li>
+                <li>Chá Gelado de Hibisco</li>
+                <li>Refrigerante Natural</li>
+            </ul>
+        </section>
+
+        <footer>
+            &copy; Aloha Fit - Todos os Direitos Reservados
+        </footer>
+    </div>
 </body>
 </html
